@@ -1,17 +1,17 @@
 # site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
+title: UDSCC
+subtitle: University Dermatology
+email: frontdesk@udscc.com
+description: World-class skincare, right in the classic city of Athens.
+baseurl: "/main"
+url: # the base hostname & protocol
 author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
+street_address: 1500 Oglethorpe Ave, Suite 300A
+city: Athens
+state: GA
+zip_code: 30606
 country: United States of America
-phone: (716) 555-5555
+phone: (706) 614-1750
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
