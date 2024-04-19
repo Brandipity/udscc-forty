@@ -3,7 +3,7 @@ title: UDSCC
 subtitle: University Dermatology
 email: frontdesk@udscc.com
 description: World-class skincare, right in the classic city of Athens.
-baseurl: "/main"
+baseurl: "/"
 url: # the base hostname & protocol
 author:
 street_address: 1500 Oglethorpe Ave, Suite 300A
@@ -22,12 +22,12 @@ tiles-count: 6
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  GitHub: https://github.com/andrewbanchich
+  GitHub:
   GitLab:
-  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
+  Google-Plus:
   Instagram:
-  LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-  Twitter: https://twitter.com/andrewbanchich
+  LinkedIn:
+  Twitter:
   Facebook:
   Slack:
 
