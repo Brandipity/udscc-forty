@@ -4,7 +4,7 @@ subtitle: University Dermatology
 email: frontdesk@udscc.com
 description: World-class skincare, right in the classic city of Athens.
 baseurl: ""
-url: # the base hostname & protocol
+url: # the base hostname & protocol -- leave blank for now
 author:
 street_address: 1500 Oglethorpe Ave, Suite 300A
 city: Athens
