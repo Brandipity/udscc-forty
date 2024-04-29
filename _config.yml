@@ -3,7 +3,7 @@ title: UDSCC
 subtitle: University Dermatology
 email: frontdesk@udscc.com
 description: World-class skincare, right in the classic city of Athens.
-baseurl: "/"
+baseurl: ""
 url: # the base hostname & protocol
 author:
 street_address: 1500 Oglethorpe Ave, Suite 300A
@@ -25,10 +25,10 @@ socials:
   GitHub:
   GitLab:
   Google-Plus:
-  Instagram:
-  LinkedIn:
+  Instagram: https://www.instagram.com/udsccderm/
+  LinkedIn: https://udscc.com/under-construction/
   Twitter:
-  Facebook:
+  Facebook: https://www.facebook.com/udscc/
   Slack:
 
 # build settings
