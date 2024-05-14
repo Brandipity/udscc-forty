@@ -65,19 +65,24 @@
 	}
 }
 
-.lens-flare {
-	position: absolute;
-	top: 55px; /* Adjust this value to set the vertical position */
-	left: 52%;
-	transform: translate(-50%, -50%);
-	width: 0;
-	height: 0;
-	background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 70%);
-	border-radius: 50%;
-	pointer-events: none;
-	opacity: 0;
-	z-index: 9999;
-	animation: lensFlare 2s ease-out forwards;
+.radiant-text {
+	position: relative;
+	display: inline-block;
+
+	.lens-flare {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 0;
+		height: 0;
+		background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 70%);
+		border-radius: 50%;
+		pointer-events: none;
+		opacity: 0;
+		z-index: -1;
+		animation: lensFlare 2s ease-out forwards;
+	}
 }
 
 @keyframes lensFlare {

@@ -16,16 +16,24 @@
     <section id="banner" class="major">
         <div class="inner">
             <header class="major">
-                <h1>{{ page.landing-title }}</h1>
+                <h1>Tailored treatment, <span class="radiant-text">radiant<span class="lens-flare"></span></span> results<span style="color: yellow;">.</span></h1>
             </header>
             <div class="content">
-                <p style="text-transform: uppercase;">{{ site.description }}</p>
+                <p style="text-transform: uppercase;">WORLD-CLASS SKINCARE, RIGHT IN THE CLASSIC CITY OF ATHENS.</p>
                 <ul class="actions">
                     <li><a href="https://sso.ema.md/auth/realms/Modmed/protocol/openid-connect/auth?response_type=code&client_id=ema&redirect_uri=https%3A%2F%2Fudscc.ema.md%2Fema%2Fsso%2Flogin&state=fd3e6265-8335-48e9-a5be-d338193fbd06&login=true&login_hint=R0RQUl9DT09LSUU9O1JFVklTSU9OPTE4MDg1ZDhiZDU7RE9NQUlOPXVkc2NjLmVtYS5tZDtPUklHSU49L2VtYS9Qcm92aWRlckxvZ2luLmFjdGlvbjtGSVJNX0xPR089bnVsbDtNQVJLRVRJTkdfQkFOTkVSPVRSVUU7RklSTV9OQU1FPVBhdHJpY2sgUmV0dGVyYnVzaCBNRCBMTEM7T0ZGTElORV9BQ0NFU1M9RkFMU0U7TUVESUNBTF9ET01BSU49ZGVybWF0b2xvZ3k7VkVSU0lPTj03LjUuNy4xO0dEUFI9VFJVRTtNT0JJTEU9RkFMU0U%3D&scope=openid#" class="button next scrolly">Patient Portal</a></li>
                 </ul>
             </div>
-            <!-- lens flare animation -->
-            <div class="lens-flare"></div>
+            <!-- Service Buttons (testing)
+            <div class="service-buttons">
+                <button data-service="service1">Service 1</button>
+                <button data-service="service2">Service 2</button>
+                <button data-service="service3">Service 3</button>
+            </div>
+            <div class="service-image">
+                <img src="" alt="">
+                <p></p>
+            </div> -->
         </div>
     </section>
 
@@ -86,7 +94,12 @@
     </div>
 
     {% include footer.html %}
-
+    <script src="/assets/js/banner.js"></script>
+    <script type="text/javascript">
+        window.klaraWidget = window.klaraWidget || [];
+        window.klaraWidget.push(["setWidgetId", "3b616720-da86-4410-b118-bb78410c349a"]);
+    </script>
+    <script type="text/javascript" src="https://s3.amazonaws.com/widget-frontend.klara.com/bundle.js"></script>
 </body>
 
 </html>

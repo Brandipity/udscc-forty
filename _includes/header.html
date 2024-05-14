@@ -3,7 +3,10 @@
 
 <!-- Header -->
 <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
-	<a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
+	<a href="{{ "" | absolute_url }}/" class="logo">
+	<img src="/assets/images/logo_edit_9.png" alt="Logo">
+	<!-- <span>{{ site.subtitle }}</span>  removed for now -->
+	</a>
 	<nav>
 		<a href="#menu">Menu</a>
 	</nav>
@@ -22,6 +25,8 @@
 		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
 		    {% endif %}
 		{% endfor %}
+		<li><a href="https://blog.udscc.com">BLOG</a></li>
+		<li><a href="https://shop.udscc.com">SHOP</a></li>
 	</ul>
 	<ul class="actions vertical">
 		<li><a href="https://udscc.ema.md/ema/pay/onlinepayments" class="button special fit">Make a Payment</a></li>

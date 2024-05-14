@@ -17,10 +17,10 @@
 		box-shadow: 0 0 0.25em 0 rgba(0,0,0,0.15);
 		cursor: default;
 		font-weight: _font(weight-bold);
-		height: 3.25em;
+		height: 4.25em;
 		left: 0;
 		letter-spacing: _font(letter-spacing-alt);
-		line-height: 3.25em;
+		line-height: 4.25em;
 		margin: 0;
 		position: fixed;
 		text-transform: uppercase;
@@ -30,22 +30,34 @@
 
 		.logo {
 			border: 0;
-			display: inline-block;
+			display: flex;
+			align-items: center;
 			font-size: 0.8em;
 			height: inherit;
 			line-height: inherit;
-			padding: 0 1.5em;
+			padding: 2.5em 1.5em;
+			text-decoration: none;
+
+			img {
+				width: 200px;
+				height: auto;
+				margin-right: 0.325em;
+				transition: filter 0.5s ease-in-out;
+
+				&:hover {
+					filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.5));
+				}
+			}
 
 			strong {
 				@include vendor('transition', (
-					'background-color #{_duration(transition)} ease-in-out',
-					'color #{_duration(transition)} ease-in-out'
+								'background-color #{_duration(transition)} ease-in-out',
+								'color #{_duration(transition)} ease-in-out'
 				));
 				background-color: _palette(fg-bold);
 				color: _palette(bg);
 				display: inline-block;
 				line-height: 1.65em;
-				margin-right: 0.325em;
 				padding: 0 0.125em 0 (_font(letter-spacing-alt) + 0.125em);
 			}
 

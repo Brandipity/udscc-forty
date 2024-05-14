@@ -12,7 +12,7 @@
 		@include vendor('display', 'flex');
 		@include padding(4em, 0, (2em, 0, 0, 0));
 		background-attachment: fixed;
-		background-position: center;
+		background-position: center bottom;
 		background-repeat: no-repeat;
 		background-size: cover;
 		border-bottom: 0 !important;
@@ -175,3 +175,52 @@
 			}
 		}
 	}
+
+.service-buttons {
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	z-index: 2;
+
+	button {
+		background-color: _palette(bg);
+		border: none;
+		color: _palette(fg);
+		padding: 10px 20px;
+		margin-right: 10px;
+		cursor: pointer;
+		opacity: 0.8;
+		transition: opacity 0.3s ease;
+
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
+
+.service-image {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+	transition: opacity 0.5s ease;
+	z-index: 2;
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	p {
+		color: _palette(fg);
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	&.active {
+		opacity: 1;
+	}
+}
+
+
