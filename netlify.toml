@@ -1,5 +1,0 @@
-[[redirects]]
-  force = true
-  from = "/klara-widget/bundle.js"
-  status = 200
-  to = "https://s3.amazonaws.com/widget-frontend.klara.com/bundle.js"
