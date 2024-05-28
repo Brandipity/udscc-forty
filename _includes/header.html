@@ -3,7 +3,7 @@
 
 <!-- Header -->
 <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
-	<a href="{{ "" | absolute_url }}" class="logo">
+	<a href="{{ "/" | absolute_url }}" class="logo"> <!-- Using Liquid here -->
 	<img src="/assets/images/logo_edit_9.png" alt="Logo" style="width: 200px; height: auto;">
 	<!-- <span>{{ site.subtitle }}</span>  removed for now -->
 	</a>
