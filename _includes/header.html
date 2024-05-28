@@ -3,11 +3,14 @@
 
 <!-- Header -->
 <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
-	<a href="{{ "" | absolute_url }}/" class="logo">
-	<img src="/assets/images/logo_edit_9.png" alt="Logo">
+	<a href="{{ "" | absolute_url }}" class="logo">
+	<img src="/assets/images/logo_edit_9.png" alt="Logo" style="width: 200px; height: auto;">
 	<!-- <span>{{ site.subtitle }}</span>  removed for now -->
 	</a>
 	<nav>
+		<a href="tel:+1234567890" class="contact-info">Tel: +1 (706) 614-1750</a>
+		<a href="mailto:info@example.com" class="contact-info">Email: frontdesk@udscc.com</a>
+		<a href="/#2" class="button special small" style="opacity: 0.5;">Contact Us</a>
 		<a href="#menu">Menu</a>
 	</nav>
 </header>

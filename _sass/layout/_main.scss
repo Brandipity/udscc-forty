@@ -65,6 +65,46 @@
 	}
 }
 
+.actions.fit.small {
+	max-width: 300px;
+	margin: 0 auto 1em auto;
+}
+
+@keyframes fadeOutRight {
+	0% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+	100% {
+		opacity: 0;
+		transform: translateX(100%);
+	}
+}
+
+@keyframes fadeInRight {
+	0% {
+		opacity: 0;
+		transform: translateX(100%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.fade-out-right {
+	animation: fadeOutRight 0.5s forwards;
+}
+
+.fade-in-right {
+	animation: fadeInRight 0.5s forwards;
+}
+
+#service-details {
+	padding: 0 20px;
+	position: relative;
+}
+
 .radiant-text {
 	position: relative;
 	display: inline-block;

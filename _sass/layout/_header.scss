@@ -10,8 +10,23 @@
 		0% { top: -4em; opacity: 0; }
 		100% { top: 0; opacity: 1; }
 	}
+@media (max-width: 1018px) {
+	#header nav .contact-info {
+		display: none;
+	}
+}
+@media (max-width: 408px) {
+	#header nav .button.special.small {
+		display: none;
+	}
+}
 
 	#header {
+		@media (max-width: 750px) {
+			.logo  {
+				width: 150px;
+			}
+		}
 		@include vendor('display', 'flex');
 		background-color: _palette(bg-alt);
 		box-shadow: 0 0 0.25em 0 rgba(0,0,0,0.15);
