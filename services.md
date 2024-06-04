@@ -123,7 +123,7 @@ nav-menu: true
     </div>
     <div class="6u$ 12u$(small)">
         <h3>Monthly Newsletters</h3>
-        <p>Our monthly newsletters are packed with insightful articles and tips designed to keep you informed about all things skin-related. Covering a wide range of topics, from the latest treatment options and skincare routines to expert advice on managing skin conditions, our newsletters provide valuable information in an easy-to-read format. Stay up-to-date with the latest advancements in dermatology and gain practical insights to maintain healthy, beautiful skin.</p>
+        <p>Our monthly newsletters are packed with insightful articles and tips designed to keep you informed about all things skin-related. Covering a wide range of topics, from the latest treatment options and skincare routines to expert advice on managing skin conditions, our newsletters provide valuable information in an easy-to-read format. Stay up-to-date with the latest advancements in dermatology.</p>
         <a href="https://blog.udscc.com" class="button special fit">Sign-UP here</a>
     </div>
     <div class="6u 12u$(small)">
