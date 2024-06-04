@@ -31,9 +31,6 @@ nav-menu: true
 					<h3>Dr. Patrick Retterbush</h3>
 				</header>
 				<p>Dr. Retterbush is board certified by the American Board of Dermatology and is an associate member of the American College of Mohs Surgery. He practices both pediatric and adult general dermatology and Mohs surgery.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
 			</div>
 		</div>
 	</section>
@@ -46,10 +43,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Scott Craven, PA-C</h3>
 				</header>
-				<p>This is placeholder text, we need to acquire a short biographical description for Scott.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
+				<p>Scott Craven is a NCCPA certified Physician Assistant who was born and raised in Athens, GA. He received his Bachelor of Science and Master of Science Degrees from The University of Georgia in 2004 and 2007. After pursuing his interest in patient care as an EMT for several years, he graduated with honors from The University of Florida with his Masters of Science in Physician Assistant Studies in 2017. Scott returned to Athens and spent almost six years serving patients in Emergency Medicine before joining University Dermatology and Skin Cancer Center in 2023. Scott lives in the Athens area with his wife, Rachel, and their two children. In his free time, he enjoys fishing, kayaking, gardening, and watching UGA Football.</p>
 			</div>
 		</div>
 	</section>

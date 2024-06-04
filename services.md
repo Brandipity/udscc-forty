@@ -69,7 +69,7 @@ nav-menu: true
         <p>Our personalized acne treatment plans are designed to address the root causes of acne and provide lasting results. We offer a variety of treatments, including topical and oral medications, chemical peels, and laser therapy.</p>
         <span class="image fit"><img src="{% link assets/images/pic01.jpg %}" alt="Acne Treatment" /></span>
     </div>
-    <div id="cosmetic-dermatology">
+    <div id="Photodynamic Therapy">
         <h3>Cosmetic Dermatology</h3>
         <p>Enhance your natural beauty with our range of cosmetic dermatology services. From Botox and fillers to laser treatments and microneedling, we offer advanced procedures to help you look and feel your best.</p>
         <span class="image fit"><img src="{% link assets/images/pic01.jpg %}" alt="Cosmetic Dermatology" /></span>
