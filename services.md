@@ -22,29 +22,24 @@ nav-menu: true
 
 <div class="row">
     <div class="4u 12u$(small)">
+        <h3>Service Menu</h3>
         <ul class="actions fit small">
-            <li><a href="#" class="button special fit small" onclick="showService('skin-cancer-screening'); return false;">Skin Cancer Screening</a></li>
+            <li><a href="#" class="button special fit small" onclick="showService('dermatologic-reconstruction'); return false;">Reconstruction</a></li>
         </ul>
         <ul class="actions fit small">
-            <li><a href="#" class="button special fit small" onclick="showService('acne-treatment'); return false;">Acne Treatment</a></li>
+            <li><a href="#" class="button special fit small" onclick="showService('general-dermatology'); return false;">General Dermatology</a></li>
         </ul>
         <ul class="actions fit small">
-            <li><a href="#" class="button special fit small" onclick="showService('cosmetic-dermatology'); return false;">Cosmetic Dermatology</a></li>
+            <li><a href="#" class="button special fit small" onclick="showService('mohs-surgery'); return false;">Mohs Surgery</a></li>
         </ul>
         <ul class="actions fit small">
             <li><a href="#" class="button special fit small" onclick="showService('pediatric-dermatology'); return false;">Pediatric Dermatology</a></li>
         </ul>
         <ul class="actions fit small">
-            <li><a href="#" class="button special fit small" onclick="showService('psoriasis-treatment'); return false;">Psoriasis Treatment</a></li>
+            <li><a href="#" class="button special fit small" onclick="showService('skin-cancer-management'); return false;">Skin Cancer Management</a></li>
         </ul>
         <ul class="actions fit small">
-            <li><a href="#" class="button special fit small" onclick="showService('laser-hair-removal'); return false;">Laser Hair Removal</a></li>
-        </ul>
-        <ul class="actions fit small">
-            <li><a href="#" class="button special fit small" onclick="showService('rosacea-treatment'); return false;">Rosacea Treatment</a></li>
-        </ul>
-        <ul class="actions fit small">
-            <li><a href="#" class="button special fit small" onclick="showService('dermatologic-surgery'); return false;">Dermatologic Surgery</a></li>
+            <li><a href="#" class="button special fit small" onclick="showService('skin-enhancement'); return false;">Skin Enhancement</a></li>
         </ul>
     </div>
     <div class="8u$ 12u$(small)">
@@ -52,53 +47,43 @@ nav-menu: true
             <!-- Default content or instructions -->
             <h3>Pick a Service From the Menu</h3>
             <p>Please select a service from the menu on the left to learn more about how we can help.</p>
-            <span class="image fit"><img src="{% link assets/images/pic01.jpg %}" alt="Default Image" /></span>
+            <span class="image fit"><img src="{% link assets/images/steth.jpeg %}" alt="Default Image" /></span>
         </div>
     </div>
 </div>
 
 <!-- Hidden service details -->
 <div id="service-data" style="display: none;">
-    <div id="skin-cancer-screening">
-        <h3>Skin Cancer Screening</h3>
-        <p>Early detection is key to effectively treating skin cancer. Our comprehensive skin cancer screening process helps identify any suspicious lesions or growths at an early stage, ensuring timely and appropriate treatment.</p>
-        <span class="image fit"><img src="{% link assets/images/pic01.jpg %}" alt="Skin Cancer Screening" /></span>
-    </div>
-    <div id="acne-treatment">
-        <h3>Acne Treatment</h3>
-        <p>Our personalized acne treatment plans are designed to address the root causes of acne and provide lasting results. We offer a variety of treatments, including topical and oral medications, chemical peels, and laser therapy.</p>
-        <span class="image fit"><img src="{% link assets/images/pic01.jpg %}" alt="Acne Treatment" /></span>
-    </div>
-    <div id="Photodynamic Therapy">
-        <h3>Cosmetic Dermatology</h3>
-        <p>Enhance your natural beauty with our range of cosmetic dermatology services. From Botox and fillers to laser treatments and microneedling, we offer advanced procedures to help you look and feel your best.</p>
-        <span class="image fit"><img src="{% link assets/images/pic01.jpg %}" alt="Cosmetic Dermatology" /></span>
-    </div>
-    <div id="pediatric-dermatology">
-        <h3>Pediatric Dermatology</h3>
-        <p>We provide specialized dermatological care for children, addressing common skin issues such as eczema, warts, and birthmarks. Our team is skilled in handling the unique needs of our younger patients with care and compassion.</p>
-        <span class="image fit"><img src="{% link assets/images/pic01.jpg %}" alt="Pediatric Dermatology" /></span>
-    </div>
-    <div id="psoriasis-treatment">
-        <h3>Psoriasis Treatment</h3>
-        <p>Our psoriasis treatment options are designed to manage and alleviate the symptoms of psoriasis, improving your quality of life. We offer both topical and systemic treatments tailored to your specific needs.</p>
-        <span class="image fit"><img src="{% link assets/images/pic01.jpg %}" alt="Psoriasis Treatment" /></span>
-    </div>
-    <div id="laser-hair-removal">
-        <h3>Laser Hair Removal</h3>
-        <p>Say goodbye to unwanted hair with our effective laser hair removal treatments. Suitable for various skin types, our laser technology provides a long-lasting solution for smooth, hair-free skin.</p>
-        <span class="image fit"><img src="{% link assets/images/pic01.jpg %}" alt="Laser Hair Removal" /></span>
-    </div>
-    <div id="rosacea-treatment">
-        <h3>Rosacea Treatment</h3>
-        <p>Our rosacea treatment plans are tailored to reduce redness, inflammation, and visible blood vessels. We offer a range of options, including topical medications, laser therapy, and lifestyle recommendations.</p>
-        <span class="image fit"><img src="{% link assets/images/pic01.jpg %}" alt="Rosacea Treatment" /></span>
-    </div>
-    <div id="dermatologic-surgery">
-        <h3>Dermatologic Surgery</h3>
-        <p>For more complex skin issues, our dermatologic surgery services provide precise and effective solutions. We handle a variety of procedures, including mole removal, skin biopsies, and excision of skin cancers.</p>
-        <span class="image fit"><img src="{% link assets/images/pic01.jpg %}" alt="Dermatologic Surgery" /></span>
-    </div>
+<div id="dermatologic-reconstruction">
+    <h3>Reconstruction</h3>
+    <p>Our specialized reconstruction services are designed to restore the function and appearance of the skin after dermatologic surgery. We use advanced techniques to ensure the best possible outcomes for our patients.</p>
+    <span class="image fit"><img src="{% link assets/images/reconstruction.jpg %}" alt="Dermatologic Reconstruction" /></span>
+</div>
+<div id="general-dermatology">
+    <h3>General Dermatology</h3>
+    <p>Our comprehensive general dermatology services cover a wide range of skin conditions, including eczema, psoriasis, and dermatitis. We provide personalized treatment plans to help manage and alleviate symptoms, ensuring optimal skin health.</p>
+    <span class="image fit"><img src="{% link assets/images/generalderm.jpg %}" alt="General Dermatology" /></span>
+</div>
+<div id="mohs-surgery">
+    <h3>Mohs Surgery</h3>
+    <p>Mohs surgery is a precise surgical technique used to treat skin cancer. Our highly trained surgeons remove cancerous tissues layer by layer, examining each layer under a microscope until only cancer-free tissue remains.</p>
+    <span class="image fit"><img src="{% link assets/images/mohs.jpg %}" alt="Mohs Surgery" /></span>
+</div>
+<div id="pediatric-dermatology">
+    <h3>Pediatric Dermatology</h3>
+    <p>We provide specialized dermatological care for children, addressing common skin issues such as eczema, warts, and birthmarks. Our team is skilled in handling the unique needs of our younger patients with care and compassion.</p>
+    <span class="image fit"><img src="{% link assets/images/pediatric.jpg %}" alt="Pediatric Dermatology" /></span>
+</div>
+<div id="skin-cancer-management">
+    <h3>Skin Cancer Management</h3>
+    <p>Our comprehensive skin cancer management program includes screening, diagnosis, treatment, and follow-up care. We use the latest techniques to ensure the best possible outcomes for our patients.</p>
+    <span class="image fit"><img src="{% link assets/images/skincancer.jpg %}" alt="Skin Cancer Management" /></span>
+</div>
+<div id="skin-enhancement">
+    <h3>Skin Enhancement</h3>
+    <p>Say goodbye to unwanted hair with our effective laser hair removal treatments. Suitable for various skin types, our laser technology provides a long-lasting solution for smooth, hair-free skin.</p>
+    <span class="image fit"><img src="{% link assets/images/enhancement.jpg %}" alt="Laser Hair Removal" /></span>
+</div>
 </div>
 
 </div>
@@ -118,8 +103,8 @@ nav-menu: true
 <div class="row">
     <div class="6u 12u$(small)">
         <h3>The Skindex</h3>
-        <p>Our comprehensive web app designed to be your go-to resource for all things skin-related. Like our own version of Wikipedia, the Skindex provides detailed, easy-to-understand information on a wide range of skin conditions, treatments, and skincare practices. With its intuitive search functionality and regularly updated content, you can quickly find answers to your questions and stay informed about the latest in dermatology.</p>
-        <a href="https://skindex.netlify.app" class="button special fit">View the Skindex</a>
+        <p>Our comprehensive web app designed to be a resource for all things skin-related. The Skindex provides detailed, easy-to-understand information on a wide range of skin conditions, treatments, and skincare practices. With its intuitive search functionality and regularly updated content, you can quickly find answers to your questions and stay informed about the latest in dermatology.</p>
+        <a class="button special fit disabled">Coming Soon</a>
     </div>
     <div class="6u$ 12u$(small)">
         <h3>Monthly Newsletters</h3>
