@@ -22,11 +22,6 @@
 }
 
 	#header {
-		@media (max-width: 750px) {
-			.logo  {
-				width: 150px;
-			}
-		}
 		@include vendor('display', 'flex');
 		background-color: _palette(bg-alt);
 		box-shadow: 0 0 0.25em 0 rgba(0,0,0,0.15);
@@ -46,21 +41,32 @@
 		.logo {
 			border: 0;
 			display: flex;
-			align-items: center;
+			align-items: left;
 			font-size: 0.8em;
 			height: inherit;
 			line-height: inherit;
-			padding: 2.5em 1.5em;
+			padding: .5em 1.5em;
 			text-decoration: none;
 
-			img {
-				width: 200px;
-				height: auto;
-				margin-right: 0.325em;
-				transition: filter 0.5s ease-in-out;
+			:root {
+				--base-width: 95px;
+				--decrement-step: 10px;
+			}
 
-				&:hover {
-					filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.5));
+			img {
+				width: calc(var(--base-width) - ((1800px - 100vw) / 500) * var(--decrement-step));
+				height: auto;
+				margin-right: 0.1em;
+				transition: filter 0.5s ease-in-out;
+			}
+			img:hover {
+				filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.5));
+			}
+
+			/* Fallback for very small viewports */
+			@media (max-width: 300px) {
+				img {
+					width: 55px;
 				}
 			}
 
@@ -153,7 +159,7 @@
 		}
 
 		&.reveal {
-			@include vendor('animation', 'reveal-header 0.35s ease');
+			@include vendor('animation', 'reveal-header 0.15s ease');
 		}
 
 		&.alt {
