@@ -36,6 +36,17 @@
 	padding: 0 35px;
 }
 
+.contact-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-info-nav {
+	white-space: nowrap;
+}
+
 .contact-info {
 	display: flex;
 	flex-direction: column;
