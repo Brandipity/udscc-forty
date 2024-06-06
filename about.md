@@ -64,9 +64,9 @@ nav-menu: true
 
 
 
-<!-- Quote -->
-<h3>A word from Dr. Retterbush</h3>
-<blockquote>This is a placeholder for an actual quote or piece of writing from Patrick.</blockquote>
+<!-- Quote (commented out for now) -->
+<!-- <h3>A word from Dr. Retterbush</h3> -->
+<!-- <blockquote>This is a placeholder for an actual quote or piece of writing from Patrick.</blockquote> -->
 
 
 </div>
