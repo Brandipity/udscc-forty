@@ -224,27 +224,39 @@
 
 			}
 
-		// Banner.
-			$banner.each(function() {
+        // Banner.
+		$banner.each(function() {
+			var $this = $(this);
 
-				var $this = $(this),
-					$image = $this.find('.image'), $img = $image.find('img');
+			if ($this.find('video').length > 0) {
+				// Video banner logic
+				var $video = $this.find('video');
+				if ($video.length > 0) {
+					$video.prop('muted', true).prop('autoplay', true).prop('loop', true).css({
+						'position': 'absolute',
+						'top': '50%',
+						'left': '50%',
+						'width': '100%',
+						'height': '100%',
+						'object-fit': 'cover',
+						'transform': 'translate(-50%, -50%)',
+						'z-index': '-1'
+					});
+				}
+				$this._parallax(0.275);
+			} else {
+				// Static image banner logic
+				var $image = $this.find('.image'), $img = $image.find('img');
+				if ($image.length > 0 && $img.length > 0) {
+					// Set image.
+					$this.css('background-image', 'url(' + $img.attr('src') + ')');
+					// Hide original.
+					$image.hide();
+				}
+				$this._parallax(0.275);
+			}
+		});
 
-				// Parallax.
-					$this._parallax(0.275);
-
-				// Image.
-					if ($image.length > 0) {
-
-						// Set image.
-							$this.css('background-image', 'url(' + $img.attr('src') + ')');
-
-						// Hide original.
-							$image.hide();
-
-					}
-
-			});
 
 		// Menu.
 			var $menu = $('#menu'),

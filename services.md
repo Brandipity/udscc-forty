@@ -81,8 +81,8 @@ nav-menu: true
 </div>
 <div id="skin-enhancement">
     <h3>Skin Enhancement</h3>
-    <p>Say goodbye to unwanted hair with our effective laser hair removal treatments. Suitable for various skin types, our laser technology provides a long-lasting solution for smooth, hair-free skin.</p>
-    <span class="image fit"><img src="{% link assets/images/enhancement.jpg %}" alt="Laser Hair Removal" /></span>
+    <p></p>
+    <span class="image fit"><img src="{% link assets/images/enhancement.jpg %}" alt="Skin Enhancement" /></span>
 </div>
 </div>
 
