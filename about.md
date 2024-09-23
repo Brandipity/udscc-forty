@@ -18,7 +18,7 @@ nav-menu: true
 
 <!-- Content -->
 <h2 id="content">We're About You</h2>
-<p>Selecting a healthcare provider, especially for something as personal as your skin, can be a stressful and overwhelming process. At University Dermatology, we understand the importance of finding a dermatologist who not only has the expertise to address your skin concerns effectively but also provides a comfortable and reassuring environment. Our goal is to make the process of helping you achieve healthier, more vibrant skin as stress-free and pleasant as possible. To ensure that we consistently deliver the highest quality of care and patient experience, we practice five essential core values that guide every aspect of our work: </p>
+<p>Selecting a doctor, especially for something as personal as your skin, can be a stressful and overwhelming process. At University Dermatology, we understand the importance of finding a dermatologist who not only has the expertise to address your skin concerns effectively but also provides a comfortable and reassuring environment. Our goal is to make the process of helping you achieve healthier, more vibrant skin as stress-free and pleasant as possible. To ensure that we consistently deliver the highest quality of care and patient experience, we practice five essential core values that guide every aspect of our work: </p>
 <div class="row">
 <div class="6u 12u$(small)">
     <h3>Compassion</h3>
