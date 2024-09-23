@@ -48,19 +48,19 @@ nav-menu: true
 
 
 <!-- Text stuff -->
-<h2 id="content">Reaching You Where You Are</h2>
-<p>As a part of our mission to reach our patients wherever they are, we operate two locations in north Georgia.</p>
-<div class="row">
-<div class="6u 12u$(small)">
-    <h3>Athens, GA</h3>
-    <p>Our flagship location. Built in 2019, our main facility employs state-of-the-art equipment and modern amenities. From the patient lounge to the operating room, our office offers a relaxing yet sophisticated vibe.</p>
-    <span class="image fit"><img src="{% link assets/images/pic03.jpg %}" alt="" /></span>
-</div>
-<div class="6u$ 12u$(small)">
-    <h3>Lavonia, GA</h3>
-    <p>Our sister location. Operating out of the illustrious St. Mary's Sacred Heart Hospital, this facility offers a convenient, accessible, and complete satellite for care for our patients residing away from our Athens location.</p>
-    <span class="image fit"><img src="{% link assets/images/pic15.jpg %}" alt="" /></span>
-</div>
+<!-- <h2 id="content">Reaching You Where You Are</h2>-->
+<!-- <p>As a part of our mission to reach our patients wherever they are, we operate two locations in north Georgia.</p>-->
+<!-- <div class="row">-->
+<!-- <div class="6u 12u$(small)">-->
+<!--    <h3>Athens, GA</h3>-->
+<!--    <p>Our flagship location. Built in 2019, our main facility employs state-of-the-art equipment and modern amenities. From the patient lounge to the operating room, our office offers a relaxing yet sophisticated vibe.</p>-->
+<!--    <span class="image fit"><img src="{% link assets/images/pic03.jpg %}" alt="" /></span>
+ </div> -->
+<!-- <div class="6u$ 12u$(small)">-->
+<!--    <h3>Lavonia, GA</h3>-->
+<!--    <p>Our sister location. Operating out of the illustrious St. Mary's Sacred Heart Hospital, this facility offers a convenient, accessible, and complete satellite for care for our patients residing away from our Athens location.</p>
+  <span class="image fit"><img src="{% link assets/images/pic15.jpg %}" alt="" /></span>-->
+<!--</div>-->
 
 
 
@@ -69,7 +69,7 @@ nav-menu: true
 <!-- <blockquote>This is a placeholder for an actual quote or piece of writing from Patrick.</blockquote> -->
 
 
-</div>
+<!--</div>-->
 
 
 </div>
